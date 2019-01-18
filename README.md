@@ -65,5 +65,5 @@ echo "--------------------------------------------------------"
 
 Exemplo de uso:
 ```sh
-ssh ubuntu@4yousee.vejaopreco.com "./deploy_staging.sh"
+ssh root@seusite.com.br "./deploy_staging.sh"
 ```
