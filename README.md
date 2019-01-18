@@ -63,3 +63,7 @@ echo "--------------------------------------------------------"
 
 ```
 
+Exemplo de uso:
+```sh
+ssh ubuntu@4yousee.vejaopreco.com "./deploy_staging.sh"
+```
