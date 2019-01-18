@@ -1,4 +1,4 @@
-# Deploy com git usando Shell Script
+# Deploy com Git usando Shell Script
 
 Acesse a pasta **/var/www/html** do servidor de produção via ssh e clone seu projeto
 ```ssh
