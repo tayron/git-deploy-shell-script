@@ -3,7 +3,7 @@
 Acesse a pasta **/var/www/html** do servidor de produção via ssh e clone seu projeto
 ```ssh
 git clone --branch="staging" --depth 50 https://url-do-projeto-aqui
-```ssh
+```
 
 Crie um arquivo ssh com o seguinte conteúdo:
 ```ssh
