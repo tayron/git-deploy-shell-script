@@ -46,10 +46,16 @@ echo "7) Limpando cache";
 echo
 sudo ./clearCache.sh
 
+echo "9 Dando permissões em todos os arquivos"
+sudo chmod 755 *
+
 echo "9) Dando permissões nas pastas logs, tmp, android, arquivos e videos"
 sudo chmod 777 -R logs/
 sudo chmod 777 -R tmp/
 sudo chmod 777 -R webroot/upload/
+
+echo "10) Removendo permissão dos arquivos Shell Script"
+chmod 760 *.sh
 
 echo
 echo 
